@@ -1,0 +1,13 @@
+l=[]
+n=int(input())
+for i in range(n):
+		b=input()
+		l.append(b)
+for i in range(n):
+         	k=len(l[i])
+		if(k>10):
+			print(l[0]+k-2+l[k-1])
+           
+        	else:
+			print(l[i])
+

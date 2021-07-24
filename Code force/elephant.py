@@ -1,0 +1,20 @@
+n=int(input())
+count=0
+while(n>0):
+    if(n>=5):
+        count+=n//5
+        n=n%5
+    elif(n>=4):
+        count+=n//4
+        n=n%4
+    elif(n>=3):
+        count+=n//3
+        n=n%3
+    elif(n>=2):
+        count+=n//2
+        n=n%2
+    else:
+        count+=n
+        n=0
+     
+print(count)
